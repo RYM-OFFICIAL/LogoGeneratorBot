@@ -118,7 +118,6 @@ async def on_off_antiarab(_, message: Message):
                  reply_markup=InlineKeyboardMarkup(
             [
                 [
-                [
                     InlineKeyboardButton(
                         "🍀 𝐎𝐩𝐞𝐧 𝐈𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 🍀", url=f"{photo}"
                     )
