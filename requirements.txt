@@ -1,0 +1,5 @@
+requests
+pyrogram==1.4.16
+result
+uvloop
+TgCrypto
