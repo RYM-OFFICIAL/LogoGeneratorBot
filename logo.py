@@ -30,7 +30,7 @@ caption = """
 @logo.on_message(filters.command("start"))
 async def start(client,message):
     await message.reply_chat_action("typing")
-    await message.reply_photo(photo="https://telegra.ph/file/859bfec6a5ba66df9d64b.jpg", caption="🔐 𝙃𝙞 𝙞 𝘼𝙢 𝙍𝙮𝙢 𝙇𝙤𝙜𝙤 𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙤𝙧 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 \n𝘽𝙮 @RymOfficial 𝙖𝙣𝙙 @RymBots 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 @TumaraBaap...\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 - /logo, /logohq, /wall, /write")
+    await message.reply_photo(photo="https://telegra.ph/file/859bfec6a5ba66df9d64b.jpg", caption="🔐 𝙃𝙞 𝙞 𝘼𝙢 𝙍𝙮𝙢 𝙇𝙤𝙜𝙤 𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙤𝙧 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 \n\n𝘽𝙮 @RymBots 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 @TumaraBaap...\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 - /logo, /logohq, /wall, /write")
 
 
 #◇───────────────────────────────────────◇ 
@@ -46,7 +46,9 @@ async def on_off_antiarab(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "🍀 𝐎𝐩𝐞𝐧 𝐈𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 🍀", url=f"{photo}"
-                    ),
+                    )
+                ],
+                [
                     InlineKeyboardButton(
                         "🍀 𝐉𝐨𝐢𝐧 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🍀", url="https://t.me/RymOfficial"
                     )
@@ -68,7 +70,9 @@ async def on_off_antiarab(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "🍀 𝐎𝐩𝐞𝐧 𝐈𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 🍀", url=f"{photo}"
-                    ),
+                    )
+                ],
+                [
                     InlineKeyboardButton(
                         "🍀 𝐉𝐨𝐢𝐧 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🍀", url="https://t.me/RymOfficial"
                     )
@@ -91,7 +95,9 @@ async def on_off_antiarab(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "🍀 𝐎𝐩𝐞𝐧 𝐈𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 🍀", url=f"{photo}"
-                    ),
+                    )
+                ],
+                [
                     InlineKeyboardButton(
                         "🍀 𝐉𝐨𝐢𝐧 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🍀", url="https://t.me/RymOfficial"
                     )
@@ -112,9 +118,12 @@ async def on_off_antiarab(_, message: Message):
                  reply_markup=InlineKeyboardMarkup(
             [
                 [
+                [
                     InlineKeyboardButton(
                         "🍀 𝐎𝐩𝐞𝐧 𝐈𝐧 𝐆𝐨𝐨𝐠𝐥𝐞 🍀", url=f"{photo}"
-                    ),
+                    )
+                ],
+                [
                     InlineKeyboardButton(
                         "🍀 𝐉𝐨𝐢𝐧 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🍀", url="https://t.me/RymOfficial"
                     )
