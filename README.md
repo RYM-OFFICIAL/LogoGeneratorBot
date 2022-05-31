@@ -16,7 +16,7 @@
 
 # Deploy Heroku 
 
-[![Deploy](https://telegra.ph/file/bcf6fbca3700a360645d7.jpg)](https://heroku.com/deploy?template=https://github.com/RYM-OFFICIAL/LogoGeneratorBot)
+[![Deploy](https://telegra.ph/file/bcf6fbca3700a360645d7.jpg)](https://heroku.com/deploy?template=https://github.com/RymOfficial/LogoGeneratorBot)
 
 # 📚 Description 📚
  
